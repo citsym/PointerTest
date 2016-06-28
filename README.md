@@ -1,2 +1,2 @@
-# Phaseroid
-Asteroids style public screen game
+# Pointer test
+Gameproto made with phaser & spaceify gamelib
