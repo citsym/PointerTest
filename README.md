@@ -32,6 +32,8 @@ change address in line 80
 gameClient.connect("xxx.xxx.xxx.xxx", 8082, id, self.clientConnected);
 where gameclient is hosted
 
+##Host www folder
+
 ##Open screen.html for screen &  controller.html for controller
 
 
