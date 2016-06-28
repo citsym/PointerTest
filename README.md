@@ -5,6 +5,7 @@ Gameproto made with phaser & spaceify gamelib
 npm install
 
 cd spaceifyapplication/api/
+
 sudo npm install 
 
 (sqllite install fails but thats ok)
@@ -12,18 +13,22 @@ sudo npm install
 
 ##Start gameserver
 cd ../..
+
 node gameserver.js
 
 
 ##Controller - Controller.js
 
 change address in line 34
+
 gameClient.connect("xxx.xxx.xxx.xxx", 8081, id, self.clientConnected);
+
 where gameclient is hosted, ports are hardcoded to spaceifyapplication/api/config.js
 
 ##Screen - Game.js
 
 change address in line 80
+
 gameClient.connect("xxx.xxx.xxx.xxx", 8082, id, self.clientConnected);
 where gameclient is hosted
 
